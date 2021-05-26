@@ -22,12 +22,22 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        //font-size: 1.2rem;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2rem;
     }
 
     body {
         background-color: var(--background-dark-color);
+        color: var(--font-light-color);
     }
+
+    a {
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
+    }
+
+
 `;
 
 export default GlobalStyle;
