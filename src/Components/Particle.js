@@ -22,7 +22,7 @@ function Particle() {
                     },
                     move: {
                         enable: true,
-                        speed: 6
+                        speed: 4
                     },
                     size: {
                         value: 5,
