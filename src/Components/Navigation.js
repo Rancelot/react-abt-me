@@ -11,22 +11,22 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-items">
-                    <NavLink to="/home" activeClassName="active-class">HOME</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>HOME</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/about" activeClassName="active-class">ABOUT</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact>ABOUT</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/resume" activeClassName="active-class">RESUME</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact>RESUME</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/portfolios" activeClassName="active-class">PORTFOLIOS</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>PORTFOLIOS</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/blogs" activeClassName="active-class">BLOGS</NavLink>
+                    <NavLink to="/blogs" activeClassName="active-class" exact>BLOGS</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/contact" activeClassName="active-class">CONTACT</NavLink>
+                    <NavLink to="/contact" activeClassName="active-class" exact>CONTACT</NavLink>
                 </li>
             </ul>
             <footer className="footer">
@@ -69,12 +69,17 @@ const NavigationStyled = styled.nav`
             display: block;
             a {
                 display: block;
-                padding: 0.2rem 0;
+                padding: 0.45rem 0;
                 position: relative;
                 z-index: 10;
+                text-transform: uppercase;
+                transition: all 0.4s ease-in-out;
+                font-weight: 600;
+                letter-spacing: 1px;
                 
                 &:hover {
                     cursor: pointer;
+                    color: var(--primary-color);
                 }
                 &::before {
                     content: "";
