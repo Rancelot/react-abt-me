@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import aboutimg from '../img/about-img.jpg';
+import PrimaButton from './PrimaButton';
 
 function ImageSection() {
     return (
@@ -34,6 +35,7 @@ function ImageSection() {
                         <p>: Software Development</p>
                     </div>
                 </div>
+                <PrimaButton title={'Download Resume'} />
             </div>
         </ImageSectionStyled>
     )
@@ -47,6 +49,7 @@ const ImageSectionStyled = styled.div`
         width: 100%;
         img {
             width: 90%;
+            object-fit: cover;  //so image doesnt stretch
         }
     }
 
@@ -65,6 +68,7 @@ const ImageSectionStyled = styled.div`
 
         .about-info {
             display: flex;
+            padding-bottom: 1.4rem;
 
             .info-title {
                 padding-right: 3rem;
