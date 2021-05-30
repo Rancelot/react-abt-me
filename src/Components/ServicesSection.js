@@ -18,11 +18,13 @@ function ServicesSection() {
                         title={'Web Design'} 
                         paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
                     />
-                    <ServiceCard 
-                        image={frontend} 
-                        title={'Front-End'} 
-                        paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
-                    />
+                    <div className="mid-card">
+                        <ServiceCard 
+                            image={frontend} 
+                            title={'Front-End'} 
+                            paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
+                        />
+                    </div>
                     <ServiceCard 
                         image={backend} 
                         title={'Back-End'} 
@@ -35,7 +37,14 @@ function ServicesSection() {
 }
 
 const ServicesSectionStyled = styled.section`
-
+    .services {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+        .mid-card {
+            margin: 0 1.2rem;
+        }
+    }
 `;
 
 export default ServicesSection;
