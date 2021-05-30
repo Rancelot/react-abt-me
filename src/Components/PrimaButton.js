@@ -31,4 +31,4 @@ const PrimaryButtonStyled = styled.a`
 
     }
 `;
-export default PrimaButton
+export default PrimaButton;
