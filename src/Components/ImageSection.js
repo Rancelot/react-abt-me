@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import aboutimg from '../img/about-img.jpg';
-import PrimaButton from './PrimaButton';
+import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
     return (
@@ -35,7 +35,7 @@ function ImageSection() {
                         <p>: Software Development</p>
                     </div>
                 </div>
-                <PrimaButton title={'Download Resume'} />
+                <PrimaryButton title={'Download Resume'} />
             </div>
         </ImageSectionStyled>
     )
