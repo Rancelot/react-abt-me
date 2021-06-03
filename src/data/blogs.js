@@ -6,31 +6,35 @@ import blog4 from '../img/blogs/blog4.svg';
 const blogs = [
     {
         id: 1,
-        title: 'How To Use SEO efficiently',
+        title: 'How To Work from Home',
         date: '03',
         month: 'June',
-        image: blog1
+        image: blog1,
+        link: 'https://www.google.com/'
     },
     {
         id: 2,
         title: 'How To Use SEO efficiently',
         date: '03',
         month: 'June',
-        image: blog2
+        image: blog2,
+        link: 'https://www.google.com/'
     },
     {
         id: 3,
-        title: 'How To Use SEO efficiently',
+        title: 'How To Choose a Programming Language',
         date: '03',
         month: 'June',
-        image: blog3
+        image: blog3,
+        link: 'https://www.google.com/'
     },
     {
         id: 4,
         title: 'How To Use SEO efficiently',
         date: '03',
         month: 'June',
-        image: blog4
+        image: blog4,
+        link: 'https://www.google.com/'
     }
 ]
 
