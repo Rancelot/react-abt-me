@@ -16,6 +16,10 @@ const ReviewItemStyled = styled.div`
     position: relative;
     width: 50%;
 
+    &:not(:first-child) {
+        margin-left: 2rem;
+    }
+
     &::after {
         content: "";
         position: absolute;
