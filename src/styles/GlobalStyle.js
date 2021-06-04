@@ -61,6 +61,11 @@ const GlobalStyle = createGlobalStyle`
         padding-bottom: 0.6rem;
     }
 
+    //Utilities
+    .u-margin-bottom {
+        margin-bottom: 4rem;
+    }
+
 `;
 
 export default GlobalStyle;
