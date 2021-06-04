@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import aboutimg from '../img/about-img.jpg';
-import PrimaryButton from './PrimaryButton';
+import PrimaryButton from '../Components/PrimaryButton';
 
 function ImageSection() {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
-import ReviewItem from './ReviewItem';
-import Title from './Title';
+import ReviewItem from '../Components/ReviewItem';
+import Title from '../Components/Title';
 
 
 function ReviewsSection() {
