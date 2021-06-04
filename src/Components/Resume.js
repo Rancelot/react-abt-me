@@ -21,7 +21,7 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'SEP 2019 - APR 2019'} 
+                        year={'SEP 2019 - APR 2020'} 
                         title={'Web Developer Coop Student'}
                         subTitle={'Husky Energy Inc.'}
                         text={'I maintained and managed the company SharePoint intranet site by updating the content and adding any new pages, images, and news articles needed. I migrated a custom intranet site of the Information Services department into their latest intranet platform that uses SharePoint. I experimented, designed, and built new intranet pages for all the latest COVID-19 information which all company employees referred to for what procedures to follow. I collaborated with various teams from other departments to create their own webpages on the company intranet site. I documented all the tasks required to maintain their SharePoint intranet site.'} 
