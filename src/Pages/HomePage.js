@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Particle from '../Components/Particle';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
+import EmailIcon from '@material-ui/icons/Email';
 
 function HomePage() {
     return (
@@ -14,18 +14,18 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi I'm <span>Rafael Angelo Pucut</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Ut nec pulvinar enim. Sed nibh odio, vulputate eu tempus vitae, ultrices.
-                </p>
+                    Full-Stack Developer, Anime Lover, and Gaming Enthusiast
+                </p><br/>
+                <p>You can find me through the links below:</p>
                 <div className="icons">
-                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="icon i-facebook">
-                        <FacebookIcon />
+                    <a href="https://ca.linkedin.com/in/rafael-angelo-pucut" target="_blank" rel="noreferrer" className="icon i-linkedin">
+                        <LinkedInIcon />
                     </a>
                     <a href="https://github.com/Rancelot" target="_blank" rel="noreferrer" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-youtube">
-                        <YoutubeIcon />
+                    <a href="mailto:rpucut@gmail.com" className="icon i-email">
+                        <EmailIcon />
                     </a>
                 </div>
             </div>
@@ -80,7 +80,7 @@ const HomePageStyled = styled.header`
                 }
             }
 
-            .i-youtube {
+            .i-email {
                 &:hover {
                     border: 2px solid #FF0100;
                     color: #FF0100;
@@ -94,10 +94,10 @@ const HomePageStyled = styled.header`
                 }
             }
 
-            .i-facebook {
+            .i-linkedin {
                 &:hover {
-                    border: 2px solid #1877F2;
-                    color: #1877F2;
+                    border: 2px solid #0A66C2;
+                    color: #0A66C2;
                 }
             }
 
