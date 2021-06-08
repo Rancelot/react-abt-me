@@ -44,6 +44,7 @@ const MenuItemStyled = styled.div`
         .portfolio-content {
             display: block;
             position: relative;
+            overflow: hidden;
             
             h6 {
                 font-size: 1.5rem;
@@ -56,9 +57,36 @@ const MenuItemStyled = styled.div`
             }
 
             ul {
-                display: none;
-                transform: translateY(-100px);
+                transform: translateY(-600px);
                 transition: all 0.4s ease-in-out;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                opacity: 0;
+
+                li {
+                    background-color: var(--border-color);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    border-radius: 50%;
+                    width: 3rem;
+                    height: 3rem;
+                    margin: 0 0.5rem;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        background-color: var(--primary-color);
+                    }
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.4s ease-in-out;
+                    }
+                }
             }
 
             .portfolio-image {
@@ -77,26 +105,14 @@ const MenuItemStyled = styled.div`
 
                 ul {
                     transform: translateY(0);
-                    display: block;
-                    position: absolute;
-                    left: 50%;
-                    top: 40%;
                     transform: translate(-50%, -50%);
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     transition: all 0.4s ease-in-out;
+                    opacity: 1;
 
                     li {
-                        background-color: var(--border-color);
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding: 1rem;
-                        border-radius: 50%;
-                        width: 3rem;
-                        height: 3rem;
-                        margin: 0 0.5rem;
                         transition: all 0.4s ease-in-out;
 
                         &:hover {
