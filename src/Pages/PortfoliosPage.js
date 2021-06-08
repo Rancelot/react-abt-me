@@ -5,13 +5,19 @@ import portfolios from '../data/portfolios';
 import Menu from '../Components/Menu';
 import Button from '../Components/Button';
 
-const allButtons = ['All', 'Animation', ...portfolios.map(item => item.category)];
+const allButtons = ['All', ...new Set(portfolios.map(item => item.category))];  //A Set data structure does not repeat data regardless of how many similar fields appear in between its brackets
 
 function PortfoliosPage() {
     const [menuItem, setMenuItems] = useState(portfolios);
-    const [button, setButtons] = useState('');
+    const [button, setButtons] = useState(allButtons);
 
     const filter = (button) => {
+
+        if (button === 'All') {
+            setMenuItems(portfolios);
+            return;
+        }
+
         const filteredData = portfolios.filter(item => item.category === button);
         setMenuItems(filteredData);
     }
@@ -21,7 +27,7 @@ function PortfoliosPage() {
             <Title title={'Portfolios'} span={'Portfolios'} />
             <InnerLayout>
 
-                <Button filter={filter}/>
+                <Button filter={filter} button={button}/>
                 <Menu menuItem={menuItem}/>
             </InnerLayout>
         </MainLayout>
