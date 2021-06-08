@@ -17,7 +17,7 @@ const portfolios = [
         image: img2,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
-        title: 'Travel Nerd Website (MERN Stack)',
+        title: 'Travel Nerd (MERN Stack)',
         text: 'Collaborative Web Development Project'
     },
     {
@@ -35,7 +35,16 @@ const portfolios = [
         image: img2,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
-        title: 'Travel Nerd Website (MERN Stack)',
+        title: 'Travel Nerd (MERN Stack)',
+        text: 'Collaborative Web Development Project'
+    },
+    {
+        id: 5,
+        category: 'JavaScript',
+        image: img2,
+        link1: 'https://www.google.com',
+        link2: 'https://www.google.com',
+        title: 'Travel Nerd (MERN Stack)',
         text: 'Collaborative Web Development Project'
     }
 ];
