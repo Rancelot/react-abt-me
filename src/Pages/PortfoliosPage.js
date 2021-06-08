@@ -6,6 +6,7 @@ import Menu from '../Components/Menu';
 
 function PortfoliosPage() {
     const [menuItem, setMenuItems] = useState(portfolios);
+    const [button, setButtons] = useState('');
 
     return (
         <MainLayout>
