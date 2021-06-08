@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
         --font-dark-color-2: #151515;
         --sidebar-dark-color: #191D2B;
         --scrollbar-bg-color: #383838;
-        --scrollbar-thump-color: #6b6b6b;
+        --scrollbar-thumb-color: #6b6b6b;
         --scrollbar-track-color: #383838;
     }
 
@@ -36,6 +36,23 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--background-dark-color);
         color: var(--font-light-color);
     }
+
+    /* CUSTOM SCROLLBAR STYLING */
+    body::-webkit-scrollbar {
+        width: 9px;
+        background-color: var(--scrollbar-bg-color);
+    }
+
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: var(--scrollbar-thumb-color);
+    }
+
+    body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: var(--scrollbar-track-color);
+    }
+    /* END OF CUSTOM SCROLLBAR STYLING */
 
     a {
         font-family: inherit;
