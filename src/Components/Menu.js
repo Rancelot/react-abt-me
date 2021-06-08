@@ -14,12 +14,12 @@ function Menu({menuItem}) {
                                 <img src={item.image} alt="" />
                                 <ul>
                                     <li>
-                                        <a href={item.link1}>
+                                        <a href={item.link1} target="_blank" rel="noreferrer">
                                             <GitHub />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href={item.link2}>
+                                        <a href={item.link2} target="_blank" rel="noreferrer">
                                             <Pinterest />
                                         </a>
                                     </li>
@@ -108,6 +108,12 @@ const MenuItemStyled = styled.div`
                             align-items: center;
                             justify-content: center;
                             transition: all 0.4s ease-in-out;
+                        }
+                    }
+
+                    li:hover {
+                        svg {
+                            color: var(--white-color);
                         }
                     }
 
