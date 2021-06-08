@@ -65,12 +65,19 @@ const MenuItemStyled = styled.div`
                     position: absolute;
                     left: 2%;
                     top: 4%;
+                    height: 0;
+                    width: 0;
+                    transition: all 0.4s ease-in-out;
+                }
+            }
+
+            .portfolio-image:hover {
+                &::before {
                     height: calc(100% - 32%);
                     width: calc(100% - 4%);
                     background-color: white;
                     opacity: 0.9;
-                    transform-origin: 0;
-                    transform: scale(1);
+                    transform-origin: left;
                     transition: all 0.4s ease-in-out;
                 }
             }
