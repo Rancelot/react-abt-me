@@ -15,26 +15,26 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
+      <div className="light-dark-mode">
+        <div className="left-content">
+          <Brightness4Icon />
+        </div>
+        <div className="right-content">
+          <Switch 
+            value=""
+            //checked={}
+            //onChange={}
+            inputProps={{ 'aria-label': ''}}
+            size="medium"
+          />
+        </div>
+      </div>
       <MainContentStyled>
         <div className="lines">
           <div className="line-1"></div>
           <div className="line-2"></div>
           <div className="line-3"></div>
           <div className="line-4"></div>
-        </div>
-
-        <div className="light-dark-mode">
-          <div className="left-content">
-            <Brightness4Icon />
-          </div>
-          <div className="right-content">
-            <Switch 
-              value=""
-              //checked={}
-              //onChange={}
-              inputProps={{ 'aria-label': ''}}
-            />
-          </div>
         </div>
 
         <Switching>
@@ -67,19 +67,6 @@ const MainContentStyled = styled.main`
   position: relative;
   margin-left: 16.3rem;
   min-height: 100vh;
-
-  .light-dark-mode {
-    position: absolute;
-    right: 0;
-    top: 10%;
-    background-color: red;
-    width: 6.5rem;
-    height: 2.5rem;
-    z-index: 15;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .lines {
     position: absolute;
