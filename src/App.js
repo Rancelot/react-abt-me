@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
 import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
@@ -10,15 +11,25 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 import {Route, Switch as Switching} from "react-router";
 import Switch from '@material-ui/core/Switch';
-import { useState, useEffect } from "react";
 
 function App() {
 
   const [theme, setTheme] = useState('dark-theme');
+  const [checked, setChecked] = useState(false);
 
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
+
+  const themeToggler = () => {
+    if (theme === 'light-theme') {
+      setTheme('dark-theme');
+      setChecked(false);
+    } else {
+      setTheme('light-theme');
+      setChecked(true);
+    }
+  }
 
   return (
     <div className="App">
@@ -32,10 +43,10 @@ function App() {
           <div className="right-content">
             <Switch 
               value=""
-              //checked={}
-              //onChange={}
+              checked={checked}
               inputProps={{ 'aria-label': ''}}
               size="medium"
+              onClick={themeToggler}
             />
           </div>
         </div>
