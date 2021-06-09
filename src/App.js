@@ -18,6 +18,7 @@ function App() {
 
   const [theme, setTheme] = useState('dark-theme');
   const [checked, setChecked] = useState(false);
+  const [navToggle, setNavToggle] = useState(false);
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -55,7 +56,7 @@ function App() {
       </div>
 
       <div className="hamburger-menu">
-        <IconButton>
+        <IconButton onClick={() => setNavToggle(!navToggle)}>
           <MenuIcon />
         </IconButton>
       </div>
