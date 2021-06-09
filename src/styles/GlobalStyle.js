@@ -84,8 +84,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     //FLOATING TOGGLER
+
     .light-dark-mode {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 10%;
         background-color: var(--background-light-color-2);
@@ -103,6 +104,7 @@ const GlobalStyle = createGlobalStyle`
             color: var(--white-color);
         }
     }
+    //FLOATING TOGGLER END
 
 `;
 

@@ -15,20 +15,24 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <div className="light-dark-mode">
-        <div className="left-content">
-          <Brightness4Icon />
-        </div>
-        <div className="right-content">
-          <Switch 
-            value=""
-            //checked={}
-            //onChange={}
-            inputProps={{ 'aria-label': ''}}
-            size="medium"
-          />
+      
+      <div className="theme">
+        <div className="light-dark-mode">
+          <div className="left-content">
+            <Brightness4Icon />
+          </div>
+          <div className="right-content">
+            <Switch 
+              value=""
+              //checked={}
+              //onChange={}
+              inputProps={{ 'aria-label': ''}}
+              size="medium"
+            />
+          </div>
         </div>
       </div>
+
       <MainContentStyled>
         <div className="lines">
           <div className="line-1"></div>
