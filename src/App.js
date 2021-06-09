@@ -8,9 +8,11 @@ import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 import Brightness4Icon from '@material-ui/icons/Brightness4';
+import MenuIcon from '@material-ui/icons/Menu';
 
 import {Route, Switch as Switching} from "react-router";
 import Switch from '@material-ui/core/Switch';
+import { IconButton } from "@material-ui/core";
 
 function App() {
 
@@ -52,6 +54,12 @@ function App() {
         </div>
       </div>
 
+      <div className="hamburger-menu">
+        <IconButton>
+          <MenuIcon />
+        </IconButton>
+      </div>
+
       <MainContentStyled>
         <div className="lines">
           <div className="line-1"></div>
@@ -90,6 +98,10 @@ const MainContentStyled = styled.main`
   position: relative;
   margin-left: 16.3rem;
   min-height: 100vh;
+
+  @media screen and (max-width: 1200px) {
+    margin-left: 0px;
+  }
 
   .lines {
     position: absolute;

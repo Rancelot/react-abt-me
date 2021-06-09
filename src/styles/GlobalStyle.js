@@ -126,7 +126,7 @@ const GlobalStyle = createGlobalStyle`
     .light-dark-mode {
         position: fixed;
         right: 0;
-        top: 10%;
+        top: 50%;
         background-color: var(--background-light-color-2);
         width: 6.5rem;
         height: 2.5rem;
@@ -142,8 +142,22 @@ const GlobalStyle = createGlobalStyle`
             color: var(--white-color);
         }
     }
-    //FLOATING TOGGLER END
 
+    //NAV TOGGLER
+    .hamburger-menu {
+        position: absolute;
+        right: 5%;
+        top: 3%;
+        z-index: 15;
+        svg {
+            font-size: 3rem;
+        }
+    }
+
+    //GLOBAL MEDIA QUERIES (RESPONSIVE)
+    @media screen and (max-width: 1200px) {
+        
+    }
 `;
 
 export default GlobalStyle;
