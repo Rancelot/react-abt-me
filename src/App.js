@@ -10,8 +10,16 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 import {Route, Switch as Switching} from "react-router";
 import Switch from '@material-ui/core/Switch';
+import { useState, useEffect } from "react";
 
 function App() {
+
+  const [theme, setTheme] = useState('dark-theme');
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
   return (
     <div className="App">
       <Sidebar />
