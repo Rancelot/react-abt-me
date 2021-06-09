@@ -6,7 +6,10 @@ import ResumePage from "./Pages/ResumePage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-import {Route, Switch} from "react-router";
+import Brightness4Icon from '@material-ui/icons/Brightness4';
+
+import {Route, Switch as Switching} from "react-router";
+import Switch from '@material-ui/core/Switch';
 
 function App() {
   return (
@@ -20,7 +23,21 @@ function App() {
           <div className="line-4"></div>
         </div>
 
-        <Switch>
+        <div className="light-dark-mode">
+          <div className="left-content">
+            <Brightness4Icon />
+          </div>
+          <div className="right-content">
+            <Switch 
+              value=""
+              //checked={}
+              //onChange={}
+              inputProps={{ 'aria-label': ''}}
+            />
+          </div>
+        </div>
+
+        <Switching>
           <Route path="/" exact>
             <HomePage />
           </Route>
@@ -39,7 +56,7 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-        </Switch>
+        </Switching>
 
       </MainContentStyled>
     </div>
@@ -50,6 +67,19 @@ const MainContentStyled = styled.main`
   position: relative;
   margin-left: 16.3rem;
   min-height: 100vh;
+
+  .light-dark-mode {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: red;
+    width: 6.5rem;
+    height: 2.5rem;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .lines {
     position: absolute;
