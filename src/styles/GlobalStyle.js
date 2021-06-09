@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
         --primary-color-light: #ffb996;
         --secondary-color: #6c757d;
         --background-dark-color: #F1F1F1;
-        --background-dark-grey: #191D2B;
+        --background-dark-grey: #e4e4e4;
         --border-color: #cbced8;
         --background-light-color: #F1F1F1;
         --background-light-color-2: rgba(232,140,95,0.3);
