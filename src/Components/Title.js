@@ -20,6 +20,22 @@ const TitleStyled = styled.div`
         position: relative;
         padding-bottom: 0.8rem;
 
+        @media screen and (max-width: 620px) {
+            font-size: 2.8rem;
+        }
+
+        @media screen and (max-width: 560px) {
+            font-size: 2.4rem;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 2rem;
+        }
+
+        @media screen and (max-width: 360px) {
+            font-size: 1.3rem;
+        }
+
         &::before {
             content: "";
             position: absolute;
@@ -50,6 +66,26 @@ const TitleStyled = styled.div`
             left: 0;
             top: 30%;
             z-index: -1;
+            
+            @media screen and (max-width: 800px) {
+                font-size: 3.8rem;
+            }
+
+            @media screen and (max-width: 620px) {
+                font-size: 3.5rem;
+            }
+
+            @media screen and (max-width: 560px) {
+                font-size: 3rem;
+            }
+
+            @media screen and (max-width: 480px) {
+                font-size: 2rem;
+            }
+
+            @media screen and (max-width: 360px) {
+                font-size: 1.5rem;
+            }
         }
     }
 `;

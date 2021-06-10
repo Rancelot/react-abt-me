@@ -24,6 +24,14 @@ const ContactItemStyled = styled.div`
     display: flex;
     align-items: center;
     
+    @media screen and (max-width: 520px) {
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 360px) {
+        padding: 0.5rem;
+    }
+
     &:not(:last-child) {
         margin-bottom: 2rem;
     }

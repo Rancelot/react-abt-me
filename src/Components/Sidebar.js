@@ -22,6 +22,18 @@ const SidebarStyled = styled.div`
         transform: translateX(-100%);
         z-index: 20;
     }
+
+    @media screen and (max-width: 660px) {
+        width: 13rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        width: 12.5rem;
+    }
+
+    @media screen and (max-width: 360px) {
+        width: 10rem;
+    }
 `;
 
 export default Sidebar;

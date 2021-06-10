@@ -72,8 +72,17 @@ const ContactPageStyled = styled.section`
         }
 
         .right-content {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+            @media screen and (max-width: 540px) {
+                width: 60%;
+            }
+
+            @media screen and (max-width: 520px) {
+                width: 50%;
+            }
+
         }
         
         .contact-title {
@@ -86,6 +95,10 @@ const ContactPageStyled = styled.section`
         
         .form {
             width: 100%;
+            
+            @media screen and (max-width: 520px) {
+                width: 80%;
+            }
 
             .form-field {
                 margin-top: 2rem;
