@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar navToggle={navToggle}/>
       
       <div className="theme">
         <div className="light-dark-mode">
