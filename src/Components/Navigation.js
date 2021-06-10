@@ -30,7 +30,7 @@ function Navigation() {
                 </li> */}
             </ul>
             <footer className="footer">
-                <p>@2021 Rafael Angelo Pucut</p>
+                <p>&copy;{`${new Date().getFullYear()}`} Rafael Angelo Pucut</p>
             </footer>
         </NavigationStyled>
     );
