@@ -37,6 +37,10 @@ const BlogsStyled = styled.div`
         grid-column-gap: 2rem;
         grid-row-gap: 3rem;
 
+        @media screen and (max-width: 770px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         .blog-item {
             background-color: var(--background-dark-grey);            
             padding: 1rem 1rem;
