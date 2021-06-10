@@ -148,6 +148,7 @@ const GlobalStyle = createGlobalStyle`
         position: absolute;
         right: 5%;
         top: 3%;
+        display: none;
         z-index: 15;
         svg {
             font-size: 3rem;
@@ -161,7 +162,9 @@ const GlobalStyle = createGlobalStyle`
 
     //GLOBAL MEDIA QUERIES (RESPONSIVE)
     @media screen and (max-width: 1200px) {
-        
+        .hamburger-menu {
+            display: block;
+        }
     }
 `;
 

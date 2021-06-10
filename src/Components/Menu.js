@@ -44,7 +44,7 @@ const MenuItemStyled = styled.div`
         grid-template-columns: repeat(2, 1fr);
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 740px) {
         grid-template-columns: repeat(1, 1fr);
     }
     

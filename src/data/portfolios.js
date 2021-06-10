@@ -9,16 +9,16 @@ const portfolios = [
         link1: 'https://github.com/Rancelot/endless-runner',
         link2: 'https://www.google.com',
         title: 'Knight Runner Game',
-        text: 'Games Development Project'
+        text: 'Games Dev Project'
     },
     {
         id: 2,
-        category: 'Web Development',
+        category: 'Web Dev',
         image: img2,
         link1: 'https://github.com/jkevinruiz/travelnerd-fullstack',
         link2: 'https://www.google.com',
-        title: 'Travel Nerd (MERN Stack)',
-        text: 'Collaborative Web Development Project'
+        title: 'Travel Nerd (MERN)',
+        text: 'Group Web Dev Project'
     },
     {
         id: 3,
@@ -27,16 +27,16 @@ const portfolios = [
         link1: 'https://github.com/Rancelot/endless-runner',
         link2: 'https://www.google.com',
         title: 'Knight Runner Game',
-        text: 'Games Development Project'
+        text: 'Games Dev Project'
     },
     {
         id: 4,
-        category: 'Web Development',
+        category: 'Web Dev',
         image: img2,
         link1: 'https://github.com/jkevinruiz/travelnerd-fullstack',
         link2: 'https://www.google.com',
-        title: 'Travel Nerd (MERN Stack)',
-        text: 'Collaborative Web Development Project'
+        title: 'Travel Nerd (MERN)',
+        text: 'Group Web Dev Project'
     },
     {
         id: 5,
@@ -44,8 +44,8 @@ const portfolios = [
         image: img2,
         link1: 'https://github.com/jkevinruiz/travelnerd-fullstack',
         link2: 'https://www.google.com',
-        title: 'Travel Nerd (MERN Stack)',
-        text: 'Collaborative Web Development Project'
+        title: 'Travel Nerd (MERN)',
+        text: 'Group Web Dev Project'
     }
 ];
 
