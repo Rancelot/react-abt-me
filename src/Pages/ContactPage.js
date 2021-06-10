@@ -42,7 +42,7 @@ function ContactPage() {
                                 <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                             </div>
                             <div className="form-field">
-                                <PrimaryButton title={'Send Email'}/>
+                                <PrimaryButton title={'Send Email'} link={'#'}/>
                             </div>
                         </form>
                     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 
-function PrimaryButton({title}) {
+function PrimaryButton({title, link}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled href={link} target="_blank" rel="noopener">
             {title}
         </PrimaryButtonStyled>
     )
