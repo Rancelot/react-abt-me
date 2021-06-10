@@ -160,8 +160,8 @@ const GlobalStyle = createGlobalStyle`
 
     //NAV TOGGLER
     .hamburger-menu {
-        position: absolute;
-        right: 5%;
+        position: fixed;
+        right: 3%;
         top: 3%;
         display: none;
         z-index: 15;
