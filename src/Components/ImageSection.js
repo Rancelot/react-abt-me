@@ -45,10 +45,17 @@ const ImageSectionStyled = styled.div`
     margin-top: 5rem;
     display: flex;
 
+    @media screen and (max-width: 1600px) {
+        flex-direction: column;
+        .left-content {
+            margin-bottom: 2rem;
+        }
+    }
+
     .left-content {
         width: 100%;
         img {
-            width: 90%;
+            width: 89%;
             object-fit: cover;  //so image doesnt stretch
         }
     }
