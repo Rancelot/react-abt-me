@@ -156,6 +156,7 @@ const GlobalStyle = createGlobalStyle`
 
     .nav-toggle {
         transform: translateX(0);
+        z-index: 20;
     }
 
     //GLOBAL MEDIA QUERIES (RESPONSIVE)

@@ -20,6 +20,7 @@ const SidebarStyled = styled.div`
 
     @media screen and (max-width: 1200px) {
         transform: translateX(-100%);
+        z-index: 20;
     }
 `;
 
