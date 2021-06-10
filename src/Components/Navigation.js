@@ -63,6 +63,7 @@ const NavigationStyled = styled.nav`
 
         .active-class {
             background-color: var(--primary-color);
+            color: var(--white-color);
         }
 
         li {
@@ -79,7 +80,7 @@ const NavigationStyled = styled.nav`
                 
                 &:hover {
                     cursor: pointer;
-                    color: var(--primary-color);
+                    color: var(--white-color);
                 }
                 &::before {
                     content: "";
@@ -93,6 +94,7 @@ const NavigationStyled = styled.nav`
                     z-index: 3;
                     opacity: 0.21;
                     transform-origin: right;
+                    z-index: -1;
                 }
             }
 

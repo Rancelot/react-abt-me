@@ -18,7 +18,7 @@ function ResumeItem({year, title, subTitle, text}) {
 
 const ResumeItemStyled = styled.div`
     display: flex;
-    
+
     &:not(:last-child) {
         padding-bottom: 3rem;
     }
@@ -64,11 +64,23 @@ const ResumeItemStyled = styled.div`
             color: var(--primary-color);
             font-size: 2rem;
             padding-bottom: 0.4rem;
+            @media screen and (max-width: 1200px) {
+                font-size: 1.5rem;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 1.2rem;
+            }
         }
 
         h6 {
             padding-bottom: 0.6rem;
             font-size: 1.5rem;
+            @media screen and (max-width: 1200px) {
+                font-size: 1rem;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 0.9rem;
+            }
         }
     }
 `;
