@@ -22,12 +22,12 @@ function Navigation() {
                 <li className="nav-items">
                     <NavLink to="/portfolios" activeClassName="active-class" exact>PORTFOLIOS</NavLink>
                 </li>
-                <li className="nav-items">
+                {/* <li className="nav-items">
                     <NavLink to="/blogs" activeClassName="active-class" exact>BLOGS</NavLink>
                 </li>
                 <li className="nav-items">
                     <NavLink to="/contact" activeClassName="active-class" exact>CONTACT</NavLink>
-                </li>
+                </li> */}
             </ul>
             <footer className="footer">
                 <p>@2021 Rafael Angelo Pucut</p>

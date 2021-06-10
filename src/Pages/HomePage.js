@@ -19,13 +19,13 @@ function HomePage() {
                 <p>You can find me through the links below:</p>
                 <div className="icons">
                     <a href="https://ca.linkedin.com/in/rafael-angelo-pucut" target="_blank" rel="noreferrer" className="icon i-linkedin">
-                        <LinkedInIcon />
+                        <LinkedInIcon /> LinkedIn
                     </a>
                     <a href="https://github.com/Rancelot" target="_blank" rel="noreferrer" className="icon i-github">
-                        <GithubIcon />
+                        <GithubIcon /> Github
                     </a>
                     <a href="mailto:rpucut@gmail.com" className="icon i-email">
-                        <EmailIcon />
+                        <EmailIcon /> Email
                     </a>
                 </div>
             </div>
@@ -53,15 +53,25 @@ const HomePageStyled = styled.header`
         width: 80%;
 
         .icons {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1rem;
+            align-items: center;
             justify-content: center;
             margin-top: 1rem;
+
+            @media screen and (max-width: 380px) {
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 1rem;
+            }
+
             .icon {
                 border: 2px solid var(--border-color);
+                padding: 0.5rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-radius: 50%;
+                border-radius: 25px;
                 transition: all 0.4s ease-in-out;   //smoothness of showing hover color
                 cursor: pointer;
 
@@ -70,13 +80,8 @@ const HomePageStyled = styled.header`
                     color: var(--primary-color);
                 }
 
-                &:not(:last-child) {
-                    margin-right: 1rem;
-                    cursor: pointer;
-                }
-
                 svg {
-                    margin: 0.5rem;
+                    margin: 0.2rem;
                 }
             }
 
