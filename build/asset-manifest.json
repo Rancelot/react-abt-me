@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2fd8fa38.chunk.js",
+    "main.js.map": "/static/js/main.2fd8fa38.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fdb70cae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fdb70cae.js.map",
+    "static/js/2.f444f2c1.chunk.js": "/static/js/2.f444f2c1.chunk.js",
+    "static/js/2.f444f2c1.chunk.js.map": "/static/js/2.f444f2c1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.f444f2c1.chunk.js.LICENSE.txt": "/static/js/2.f444f2c1.chunk.js.LICENSE.txt",
+    "static/media/Knight_Runner-thumbnail.f3e2a188.jpg": "/static/media/Knight_Runner-thumbnail.f3e2a188.jpg",
+    "static/media/about-img.7f79e088.jpg": "/static/media/about-img.7f79e088.jpg",
+    "static/media/avatar.019b41cb.jpg": "/static/media/avatar.019b41cb.jpg",
+    "static/media/blog1.7ecbb78c.svg": "/static/media/blog1.7ecbb78c.svg",
+    "static/media/blog2.541a32ba.svg": "/static/media/blog2.541a32ba.svg",
+    "static/media/blog3.4826190b.svg": "/static/media/blog3.4826190b.svg",
+    "static/media/blog4.e66d392a.svg": "/static/media/blog4.e66d392a.svg",
+    "static/media/servers.4961651a.svg": "/static/media/servers.4961651a.svg",
+    "static/media/travelnerd-thumbnail.6cad9745.jpg": "/static/media/travelnerd-thumbnail.6cad9745.jpg",
+    "static/media/ux-interface.84694eea.svg": "/static/media/ux-interface.84694eea.svg",
+    "static/media/web-design.37370677.svg": "/static/media/web-design.37370677.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdb70cae.js",
+    "static/js/2.f444f2c1.chunk.js",
+    "static/js/main.2fd8fa38.chunk.js"
+  ]
+}
