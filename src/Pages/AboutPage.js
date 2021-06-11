@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import ImageSection from '../Components/ImageSection';
-import ReviewsSection from '../Components/ReviewsSection';
+// import ReviewsSection from '../Components/ReviewsSection';
 import ServicesSection from '../Components/ServicesSection';
 import Title from '../Components/Title';
 import {MainLayout} from "../styles/Layouts";
