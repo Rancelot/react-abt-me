@@ -14,7 +14,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi I'm <span>Rafael Angelo Pucut</span></h1>
                 <p>
-                    Full-Stack Developer, Anime Lover, and Gaming Enthusiast
+                    Full Stack Developer, Anime Lover, and Gaming Enthusiast
                 </p><br/>
                 <p>You can find me through the links below:</p>
                 <div className="icons">
