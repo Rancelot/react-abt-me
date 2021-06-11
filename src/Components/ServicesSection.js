@@ -16,19 +16,19 @@ function ServicesSection() {
                     <ServiceCard 
                         image={design} 
                         title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
+                        paragraph={'Determining how to improve the appearance, and layout of a website are the skills I am continuing to develop. Other mediums I love to design also include UX, UI, Mobile, Apps and Games. In order to visualize designs, the tools I use include Figma, Axure, Pen & Paper, Photoshop, and Gimp.'}
                     />
                     <div className="mid-card">
                         <ServiceCard 
                             image={frontend} 
                             title={'Front-End'} 
-                            paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
+                            paragraph={'I take great interest and passion in creating or coding websites from zero in order to figure out how they should look and what content should appear. Languages I have learned include HTML, CSS, JavaScript, Reactjs and Bootstrap. Tools that I use for this are VSCode, Github, Bitbucket and the Terminal.'}
                         />
                     </div>
                     <ServiceCard 
                         image={backend} 
                         title={'Back-End'} 
-                        paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elit congue, sodales quam nec, rutrum elit. Duis vitae suscipit.'}
+                        paragraph={'Working on the core functionality of websites through creating APIs, and interacting with databases are challenges I love to tackle. Languages I have learned to nurture my skills are SQL, Nodejs, Java, and Python. The tools I use for this are Nodejs, Express, MySQL, myPhpAdmin, MongoDB, GCP.'}
                     />
                 </div>
             </ServicesSectionStyled>
