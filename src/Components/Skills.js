@@ -65,6 +65,21 @@ function Skills() {
                         width={'30%'}
                         text={'30%'} 
                     />
+                    <ProgressBar
+                        title={'JUNIT'}
+                        width={'50%'}
+                        text={'50%'} 
+                    />
+                    <ProgressBar
+                        title={'SELENIUM'}
+                        width={'50%'}
+                        text={'50%'} 
+                    />
+                    <ProgressBar
+                        title={'MONGODB'}
+                        width={'55%'}
+                        text={'55%'} 
+                    />
                 </div>
             </InnerLayout>
         </SkillsStyled>
