@@ -13,8 +13,9 @@ function ImageSection() {
                 <h4>I am <span>Rafael</span></h4>
                 
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet facilisis faucibus. 
-                    Quisque imperdiet interdum lectus, sed interdum velit mattis eu. Cras pharetra sem et mattis pretium.
+                    I am a computer information systems graduate pursuing potential opportunities as a software developer. 
+                    Through my experiences in academia and the workforce, I have attained some skills in front and back-end development. 
+                    I am highly adaptable, have a keen desire for knowledge, and am constantly seeking to enhance my abilities step by step.
                 </p>
                 
                 <div className="about-info">
