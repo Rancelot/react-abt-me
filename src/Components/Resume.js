@@ -21,6 +21,18 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
+                        year={'APR 2022 - PRESENT'} 
+                        title={'Software Developer (Junior)'}
+                        subTitle={'Shaw Communications Inc.'}
+                        text={''} 
+                    />
+                    <ResumeItem 
+                        year={'OCT 2021 - MAR 2022'} 
+                        title={'Junior Software Developer (Contractor)'}
+                        subTitle={'Self Employed'}
+                        text={'I developed a SharePoint Online Communications Site to support communications for the intended company program. I built numerous SharePoint pages in English and Spanish to serve as a central repository for communications for all employees. I integrated data visualization dashboards (Power BI) provided by colleagues into the SharePoint site for the broad consumption of all employees. I designed and produced a variety of graphics needed for the SharePoint Online Communications site using Photoshop. I created help documents for the ease of maintaining the large SharePoint Online Communications Site.'} 
+                    />
+                    <ResumeItem 
                         year={'SEP 2019 - APR 2020'} 
                         title={'Web Developer Coop Student'}
                         subTitle={'Husky Energy Inc.'}

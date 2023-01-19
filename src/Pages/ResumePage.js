@@ -7,8 +7,8 @@ import { MainLayout } from '../styles/Layouts';
 function ResumePage() {
     return (
         <MainLayout>
-            <Skills />
             <Resume />
+            <Skills />
         </MainLayout>
     )
 }

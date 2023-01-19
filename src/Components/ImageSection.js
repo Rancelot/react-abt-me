@@ -29,7 +29,7 @@ function ImageSection() {
                     </div>
                     <div className="info">
                         <p>: Rafael Angelo Pucut</p>
-                        <p>: 23 </p>
+                        <p>: {`${new Date().getFullYear() - 1998}`} </p>
                         <p>: Filipino </p>
                         <p>: Tagalog, English </p>
                         <p>: Calgary, Alberta - Canada</p>
